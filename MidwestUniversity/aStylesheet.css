@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.table1 {
+    background-color: antiquewhite;
+    border: 5px outset black;
+    font-size: 1em;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table1 caption {
+    background-color: antiquewhite;
+    text-align: left;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+.table1 th,
+.table1 td {
+    border: 2px dashed rgb(49, 41, 41);
+    vertical-align: top;
+    padding: 10px;
+}
+
+.header1 {
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+.header2 {
+    background-color: rgb(48, 37, 37);
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+col#col1 {
+    background-color: rgb(229, 222, 193);
+}
+
+col.dayCols {
+    background-color: rgb(213, 178, 136);
+}
+
+.table1 tfoot {
+    background-color: black;
+    color: white;
+}
